@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/iconfont.css" rel="stylesheet">
+    <style>
+        @keyframes test {
+            0% {
+                width: 50px;
+                background-color: crimson;
+            }
+            50% {
+                width: 100px;
+                background-color: orangered;
+            }
+            100% {
+                width: 150px;
+                background-color: green;
+            }
+        }
+
+        #dian{
+            animation: test 1s  infinite;/**执行动画*/
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #wrap{
+            border: 1px solid black;
+        }
+        .top {
+            height: 35px;
+            background-color: #ffe4e1;
+            line-height: 35px;
+
+        }
+        .top .time{
+            font-size: 25px;
+            text-align: center;
+            margin-left: 285px;
+
+        }
+        .top .iconfont{
+            font-size: 25px;
+            float: left;
+            margin-left: 5px;
+        }
+        .a1{
+            width: 130px;
+            float: left;
+        }
+        .a2{
+            width: 130px;
+            float: right;
+            text-align: left;
+        }
+        .head{
+            height: 100px;
+            background-color: 	#d3d3d3;
+            font-size: 50px;
+            line-height: 100px;
+        }
+        #wrap .head .iconfont{
+            font-size: 50px;
+            float: right;
+            margin-right: 40px;
+        }
+        #wrap ul{
+
+            height: 1450px;
+
+            overflow: scroll;
+        }
+        #wrap ul li{
+            list-style: none;
+            height: 150px;
+            /*border-bottom: 1px solid black;*/
+
+        }
+        .bottom{
+            display: flex;
+            height: 150px;
+            border: 1px solid black;
+        }
+        #wrap .bottom div{
+            flex: 1;
+            background-color: 	#d3d3d3
+        }
+        .bottom .iconfont{
+            text-align: center;
+        }
+        .bottom .iconfont a p{
+            font-size: 70px;
+            line-height: 82px;
+
+        }
+        .bottom .iconfont span{
+            font-size: 40px;
+            line-height: 60px;
+        }
+        img{
+            width: 130px;
+            height: 130px;
+            margin: 10px;
+
+        }
+        ul li p{
+            font-size: 50px;
+            margin-left: 50px;
+            line-height: 90px;
+        }
+        ul li span{
+            font-size: 40px;
+            margin-left: 50px;
+            line-height: 90px;
+            color: 	#C0C0C0;
+        }
+        .a3{
+
+            height: 130px;
+            margin: auto;
+            float: left;
+
+        }
+        ul  li{
+            border-bottom: black    1px solid;
+            list-style: none;
+        }
+        .tianjia1   .tianjia{
+            color: white;
+            border-bottom: white    1px solid;
+            font-size: 50px;
+        }
+        #weilei:hover   #tianjiakuai{
+            display: block;
+        }
+        #tianjiakuai{
+            width: 415px;
+            background-color: black;
+            position: absolute;top: 135px;
+            left: 565px;
+            height: 750px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<!--顶部-->
+<div class="top">
+    <strong class="time">
+        <span   class="iconfont test">&#xeb07;</span>
+        <span   class="iconfont test">&#xeb07;</span>
+        <span   class="iconfont test"></span>
+        <span   class="">下午3:50</span>
+    </strong>
+
+    <div class="a2">
+        <span   class="iconfont test1">80%&#xe638;</span>
+        <span   class="iconfont test1">&#xe627;</span>
+    </div>
+</div>
+<div    style="height: 550px;width: 978px;">
+    <img src="img/炸毛毛.jpg" alt="" style="height: 550px;width: 978px;padding: 0;margin: 0;">
+    <img src="img/头像我.jpg" alt=""style="height: 150px;width: 150px;position: relative;left: 750px;top: -90px;">
+    <img src="img/相机.png" style="width: 80px;height: 80px;position: relative;top: -528px;right:30px;float: right">
+    <a href="发现.html"   style="text-decoration: none;color: black">
+    <div    style="font-size: 100px;position: relative;bottom: 715px;"><</div>
+    </a>
+</div>
+<div style="height: 1057px;position: relative;top:100px;border-top-color: white;">
+<ul>
+    <li>
+        <img src="img/1喵喵.jpg" alt="" style="width: 121px;height:140px;">
+        <span style="color: orange;font-size: 38px;position: relative;top: -105px;right: 37px;">
+            李文琪
+        </span>
+        <span style="color:black" >
+            这世界上没有绝境
+            只有对环境绝望的人
+            没有做不成的事 只有坚持不了的人
+        </span>
+    </li>
+    <li>
+        <img src="img/炸毛毛.jpg" alt="" style="width: 717px;height: 509px;margin-left:131px;">
+    </li>
+</ul>
+</div>
+
+<div    style="height: 35px;width: 50px;background-color: lawngreen;position: absolute;bottom: 1705px;left: 550px;line-height: 35px;font-size: 20px"  id="dian">充电中</div>
+</body>
+</html>
